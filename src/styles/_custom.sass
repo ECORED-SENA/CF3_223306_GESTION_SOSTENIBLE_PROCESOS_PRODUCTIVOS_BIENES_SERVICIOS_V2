@@ -2,18 +2,710 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 15%
+    left: 0%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 48%
+    right: 10%
 
 
 @keyframes float1
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+
+@keyframes float2
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+// TAMAÑO IMAGENES //
+.img18
+   max-width: 18px !important
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img60
+  max-width: 60px !important
+.img70
+   max-width: 70px !important
+.img80
+   max-width: 80px !important
+.img90
+  max-width: 90px !important
+.img100
+  max-width: 100px !important
+.img120
+  max-width: 120px !important
+.img140
+  max-width: 140px !important
+.img160
+  max-width: 160px !important
+.img180
+  max-width: 180px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img300
+  max-width: 300px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img420
+  max-width: 420px !important
+.img450
+  max-width: 450px !important
+.img500
+  max-width: 500px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img800
+  max-width: 800px !important
+.img900
+  max-width: 900px !important
+
+.colr
+  color: $color-acento-contenido
+  &_1
+    color: #285D42
+  &_2
+    color: $color-secundario
+
+//BACKGROUND//
+.bgr
+  background-color: $color-adicional-1
+  &_1
+    background-color: #D5CEED
+    &::before
+      background-color: #583CB6
+  &_2
+    background-color: #FAE8C2
+  &_3
+    background-color: #FDF5E5
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+  &_4
+    background-color: $color-primario
+    width: fit-content
+  &_5
+    background-color: #F4F0FF
+  &_6
+    background-color: white
+    border-radius: 50px
+    @media (max-width: $bp-max-lg)
+      border-radius: 13px
+
+  &_7
+    background-color: #E2D9FF
+    border-radius: 10px
+  &_8
+    background-color: #FAEBCD
+    border-radius: 10px
+  &_9
+    background-color: #FAF5EA
+  &_10
+    background-color: #FDEEE5
+    border-radius: 10px
+    &:hover
+      background-color: #FAD6C3
+  &_11
+    background-color: #FDF5E5
+  &_12
+    background-color: #FDEEE5
+  &_13
+    background-color: $color-acento-contenido
+    &::before
+      background-color: #FAEBCD
+      left: 62%
+      @media (max-width: $bp-max-sm)
+        left: 50%
+  &_14
+    background-color: #C1E7FA
+  &_15
+    background-color: #E3F0E9
+  &_16
+    background-color: #F5F2FF
+  &_17
+    &::before
+      background-color: #FAD6C3
+      width: 40px
+      height: 30px
+  &_18
+    background-color: white
+    border-radius: 10px
+  &_19
+    background-color: #FAEBCD
+    &::before
+      background-color: $color-secundario
+      left: 40%
+      @media (max-width: $bp-max-md)
+        left: 50%
+
+  &_20
+    .tarjeta--azul
+      background-color: #F2F2F2
+    .tarjeta.tarjeta--azul.acordion__activo
+      background-color: #E2D9FF
+  &_21
+    background-color: #583CB6
+  &_22
+    background-color: #F6F6F6
+  &_23
+    background-color: $color-primario
+  &_24
+    background-color: #FAEBCD
+    border-top-right-radius: 10px
+    border-bottom-right-radius: 10px
+  &_25
+    background-color: $color-secundario
+  &_26
+    background-color: #FAEBCD
+  &_27
+    background-color: $color-primario
+  &_28
+    background-color: #FAE8C2
+    border-radius: 20px
+  &_29
+    width: 60%
+    margin-left: 20%
+    border-color: $color-sistema-texto
+    opacity: 1
+    height: 1.5px !important
+  &_30
+    border-left: 1px solid $color-sistema-texto
+  &_31
+    background-color: #F7E9E1
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+  &_32
+    background-color: #F4F0FF
+    width: fit-content
+  &_33
+    background-color: #E2D9FF
+
+//FONDOS COMPLETOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 23%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 85%
+    background-color: #F4F0FF
+    @media (max-width: $bp-max-lg)
+      height: 81%
+    @media (max-width: $bp-max-sm)
+      height: 79%
+
+
+.bg_grad-02
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(244,240,255,1) 10%, rgba(244,240,255,1) 90%, rgba(255,255,255,1) 100%)
+.bg_grad-03
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 14%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 90%
+    background-color: #FDF5E5
+.bg_grad-04
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 10%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 93%
+    background-color: #F4F0FF
+    @media (max-width: $bp-max-lg)
+      top: -2%
+    @media (max-width: $bp-max-sm)
+      top: -2%
+      height: 100%
+.bg_grad-05
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(253,245,229,1) 10%, rgba(253,245,229,1) 90%, rgba(255,255,255,1) 100%)
+.bg_grad-06
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 13%
+    left: 88px
+    width: 77%
+    height: 85%
+    background-color: #F4F0FF
+    @media (max-width: $bp-max-md)
+      top: -10%
+      left: 0
+      width: 100%
+      height: calc( 100% + 1rem)
+    @media (max-width: $bp-max-sm)
+      top: -5%
+
+.bg_grad-07
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(253,245,229,1) 10%, rgba(253,245,229,1) 90%, rgba(255,255,255,1) 100%)
+.bg_grad-08
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 17%
+    left: 0
+    width: 100%
+    height: 85%
+    background-color: #F4F0FF
+    @media (max-width: $bp-max-md)
+      left: -7px
+    @media (max-width: $bp-max-sm)
+      width: calc(100% + 1rem)
+.bg_grad-09
+  position: relative
+  figura, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 23%
+    left: 0
+    width: 100%
+    height: 162px
+    background-color: #FAD6C3
+    border-radius: 10px
+    @media (max-width: $bp-max-lg)
+      top: 14%
+      height: 147px
+    @media (max-width: $bp-max-md)
+      top: -10%
+      height: 147px
+    @media (max-width: $bp-max-xs)
+      top: 14%
+      height: 90%
+
+.bg_grad-10
+  position: relative
+  figura, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -17px
+    left: -12px
+    width: 25%
+    height: calc(100% + 2rem)
+    background-color: #F0ECFF
+.bg_grad-11
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc(100% + 6rem)
+    height: calc(100% + 2rem)
+    background-color: #F5F2FF
+.bg_grad-12
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 15px
+    left: 0
+    width: calc(100% + 6rem)
+    height: 80%
+    background-color: #583CB6
+    @media (max-width: $bp-max-xl)
+      top: -4px
+      height: 100%
+    @media (max-width: $bp-max-lg)
+      top: -4px
+      height: 100%
+    @media (max-width: $bp-max-md)
+      top: -15px
+      height: 80%
+
+.bg_grad-13
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc(100% + 6rem)
+    height: 100%
+    background-color: #F5F2FF
+.bg_grad-14
+  position: relative
+  .row, figure, p, .titulo-sexto
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-color: #FDF5E5
+    @media (max-width: $bp-max-md)
+      top: -3%
+      height: calc( 100% + 1rem)
+.bg_grad-15
+  position: relative
+  .row, h3
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc(100% + 6rem)
+    height: 100%
+    background-color: #F5F2FF
+.bg_grad-16
+  position: relative
+  .row, figura
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/tema4/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-17
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 100%
+    height: 97%
+    background-color: #E2D9FF
+    @media (max-width: $bp-max-md)
+      top: 64%
+      height: 35%
+    @media (max-width: $bp-max-sm)
+      top: 50%
+      height: 49%
+
+.bg_grad-18
+  position: relative
+  .row, .titulo-sexto, caption
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -5%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-color: #F4F0FF
+    @media (max-width: $bp-max-md)
+      top: -6%
+.bg_grad-19
+  position: relative
+  figura, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 69px
+    left: 81px
+    width: 20%
+    height: 27%
+    background-color: #F0ECFF
+    @media (max-width: $bp-max-md)
+      top: -2%
+      left: -2%
+.bg_grad-20
+  position: relative
+  .row, h3
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 5%
+    left: 0
+    width: calc(100% + 6rem)
+    height: 100%
+    background-color: #F5F2FF
+.bg_grad-21
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 65%
+    height: 100%
+    background-color: #E2D9FF
+    @media ( max-width: $bp-max-lg)
+      width: 100%
+      height: 47%
+    @media ( max-width: $bp-max-md)
+      width: 100%
+      height: 55%
+    @media ( max-width: $bp-max-sm)
+      width: 100%
+      height: 58%
+    @media ( max-width: $bp-max-xs)
+      width: 100%
+      height: 60%
+    @media ( max-width: 420px)
+      width: 100%
+      height: 73%
+.bg_grad-22
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 21px
+    left: 0
+    width: 90%
+    height: 75%
+    background-color: #FDF5E5
+    @media ( max-width: $bp-max-lg)
+      top: -17px
+      height: 97%
+
+    @media ( max-width: $bp-max-md)
+      top: -3%
+      margin: 0
+      left: -3%
+      width: calc(100% + 2rem)
+      height: 43%
+    @media ( max-width: $bp-max-sm)
+      height: 56%
+
+.bg_grad-23
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0
+    top: 0%
+    left: 0
+    width: 80%
+    height: 100%
+    background-color: #FAE8C2
+    @media ( max-width: $bp-max-md)
+      width: calc(100% + 1rem)
+      height: 43%
+    @media ( max-width: $bp-max-sm)
+      height: 60%
+.bg_grad-24
+  position: relative
+  .row, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0
+    top: 0%
+    left: 20%
+    width: 82%
+    height: 100%
+    background-color: #FAE8C2
+    @media ( max-width: $bp-max-md)
+      width: calc(100% + 1rem)
+      top: 51%
+      left: -3%
+      height: 49%
+    @media ( max-width: $bp-max-sm)
+      top: 38%
+      height: 62%
+//POSICION EN PATANLLA//
+.pst
+  .tarjeta-avatar .tarjeta
+    padding-top: 130px !important
+    border-radius: 10px
+  &_1
+    .bloque-texto-g__img
+      width: 36%
+      @media (max-width: $bp-max-lg)
+        width: 62%
+      @media (max-width: $bp-max-md)
+        width: 100%
+      @media (max-width: $bp-max-sm)
+        width: 100%
+    .bloque-texto-g__texto
+      width: 69%
+      @media (max-width: $bp-max-md)
+        width: 100%
+      @media (max-width: $bp-max-sm)
+        width: 100%
+  &_2
+    .tarjeta-avatar .tarjeta
+      padding-top: 175px !important
+      border-radius: 10px
+  &_3
+    position: absolute
+    top: 10px
+    left: 10px
+    width: 33px
+  &_4
+    position: absolute
+    bottom: 10px
+    right: 10px
+    width: 28px
+  &_5
+    margin-top: 25%
+  &_6
+    .tarjeta-avatar
+      img
+        top: 8%
+  &_7
+    @media (max-width: $bp-max-sm)
+      max-width: 350px
+      margin: auto
+
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ul--color
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ol--cuadro
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+
+.bg-full
+  margin-left: -48px
+  margin-right: -48px
+  padding-left: 48px
+  padding-right: 48px
+
+.bg-purple-ligth
+  background: #F4F0FF
+
+.txt-color-acento-contenido
+  color: $color-acento-contenido
+
+//SLIDERS TIPO B//
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-image: url("../assets/componentes/arrow1.svg")
+  background-color: $color-acento-contenido
+.slyder-a__bullets__item--active
+  background-color: $color-acento-contenido !important
+  border-color: $color-acento-contenido !important
+.slyder-a__bullets__item
+  background-color: #D8C3FF
+//TABS A//
+.tarjeta.color-acento-contenido--borde
+  background-color: #F4F0FF
+  border: none
+.tabs-a__tab
+  background-color: #E8E8E8

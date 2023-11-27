@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 En el siguiente esquema se puede observar una síntesis de los temas desarrollados en este componente formativo “Ciclo de vida en los procesos de la organización y Economía Circular”:
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El mapa sintetiza el componente formativo, presenta una estructura de conceptos interrelacionados sobre sostenibilidad y economía circular, y destaca la importancia de adoptar enfoques sostenibles y circulares en la economía y la gestión de recursos. Además, promueve prácticas respetuosas con el medio ambiente y la sociedad")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
