@@ -183,7 +183,10 @@
         h5 Figura 11
         span Etapas de la cadena de suministro
       figure
-        img(src='@/assets/curso/temas/tema5/t5-10.svg', alt='La imagen muestra las etapas que conforman las cadenas de suministro: desde su producción, pasando por la distribución y ventas, seguido de su posible reparación y reutilización, hasta su reciclaje o eliminación final.')
+        .d-none.d-lg-block
+          img(src='@/assets/curso/temas/tema5/t5-10.svg', alt='La imagen muestra las etapas que conforman las cadenas de suministro: desde su producción, pasando por la distribución y ventas, seguido de su posible reparación y reutilización, hasta su reciclaje o eliminación final.')
+        .d-lg-none
+          img(src='@/assets/curso/temas/tema5/t5-10b.svg', alt='La imagen muestra las etapas que conforman las cadenas de suministro: desde su producción, pasando por la distribución y ventas, seguido de su posible reparación y reutilización, hasta su reciclaje o eliminación final.')
 
     p.mb-5 A continuación, en la siguiente figura del modelo de suministro podemos observar que el éxito de su implementación es el de extraer el valor total de un material en la cadena del ciclo de vida del producto; la clave está en la línea de producción y el desarrollo del producto.
 

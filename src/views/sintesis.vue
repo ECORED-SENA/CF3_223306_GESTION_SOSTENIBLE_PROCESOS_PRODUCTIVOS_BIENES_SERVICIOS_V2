@@ -9,7 +9,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="El mapa sintetiza el componente formativo, presenta una estructura de conceptos interrelacionados sobre sostenibilidad y economía circular, y destaca la importancia de adoptar enfoques sostenibles y circulares en la economía y la gestión de recursos. Además, promueve prácticas respetuosas con el medio ambiente y la sociedad")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
