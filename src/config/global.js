@@ -38,7 +38,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Limites ecológicos',
+            titulo: 'Límites ecológicos',
             hash: 't_1_1',
           },
           {
@@ -288,7 +288,7 @@ export default {
     {
       termino: 'Ecosistema',
       significado:
-        'Es un conjunto de organismos vivos y seres no vivos que se relacionan entre si y comparten el mismo hábitat.',
+        'Es un conjunto de organismos vivos y seres no vivos que se relacionan entre sí y comparten el mismo hábitat.',
     },
     {
       termino: 'Empaque',

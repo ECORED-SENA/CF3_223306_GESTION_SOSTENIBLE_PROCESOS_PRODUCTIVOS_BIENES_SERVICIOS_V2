@@ -16,7 +16,7 @@
           span Bosque manglar de día
 
         figura(data-aos="zoom-in-up").mb-5
-          img.mb-3(src='@/assets/curso/temas/tema1/img1.png' alt='')
+          img.mb-3(src='@/assets/curso/temas/tema1/img1.png' alt='Ilustración de un bosque de manglar durante el día, con aves volando, una garza parada junto al agua y vida marina visible bajo la superficie del agua.')
 
         .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center
@@ -213,7 +213,7 @@
 
     h4.bgr_4.p-3.mb-5(data-aos="fade-down-right") Flujos y transformación de energía
 
-    p.mb-5 Los seres vivos que habitan en un ecosistema necesitan energía y materia para la realización de sus ocupaciones primordiales. Por lo tanto, para poder realizar su ciclo de vida lo seres vivos están clasificados en diferentes niveles, según el modo que obtienen la materia o energía; estos niveles son:
+    p.mb-5 Los seres vivos que habitan en un ecosistema necesitan energía y materia para la realización de sus ocupaciones primordiales. Por lo tanto, para poder realizar su ciclo de vida, los seres vivos están clasificados en diferentes niveles, según el modo que obtienen la materia o energía; estos niveles son:
 
     .row.mb-5
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="flip-up")
@@ -321,7 +321,7 @@
 
     .row.bgr_14.p-4
       .col-12.col-lg-5.d-flex.align-items-center(data-aos="fade-left")
-        p.mb-0 La necesidad de adoptar una economía circular en Colombia surge de los desafíos de conservar los recursos disponibles en el país y de la habilidad para reutilizarlos en diversos ciclos productivos, generando valor agregado. Esto impulsa la productividad y busca abrir nuevos mercados de exportación con productos innovadores.
+        p.mb-0 El equilibrio del metabolismo es analizado por el uso de agua, energía y la extracción de materia prima, así como las importaciones y exportaciones de acuerdo con el consumo. Es el fundamento para comprender la sostenibilidad ambiental de un país, de acuerdo con su uso, exceso o escasez de recursos; a la vez, es el análisis de materias primas y recursos lo que proporciona un indicador del tamaño y escala de la actividad económica en el país.
       .col-12.col-lg-7(data-aos="fade-right")
         figura
           img(src='@/assets/curso/temas/tema1/v2022/t1-23.png' alt='')
@@ -335,7 +335,7 @@
             p Según la OCDE y CEPAL (2014), Colombia posee y se caracteriza por su riqueza en los recursos naturales y el país tiene el 10 % de la biodiversidad a nivel mundial, compuesta por un territorio predominante del 50 % de bosque.
             .bgr_2.p-3.mb-3
               p.mb-0 La economía colombiana se posiciona en el puesto 39 con una participación del 0,39 % de la economía mundial
-            p Según FEDESARROLLO (2018), las actividades económicas que más se destacan son el comercio (12,2 %), la industria (10,9 %), la construcción (7,2%), el transporte (7%), la agricultura (7,4 %) y la minería (6,1 %).
+            p Según FEDESARROLLO (2018), las actividades económicas que más se destacan son el comercio (12,2 %), la industria (10,9 %), la construcción (7,2 %), el transporte (7 %), la agricultura (7,4 %) y la minería (6,1 %).
             p Colombia ha sido una de las economías más fuertes de la región con un promedio de 3% anual durante las últimas dos décadas. Además, dispone con 1’214,258 Mm#[sup 3]/año de recurso hídrico disponible, es decir, equivale a un per cápita de 28,370 m3 de agua comparado con  900m#[sup 3] per cápita en países de la OCDE.
           .col-12.col-xl-7
             figure
@@ -346,7 +346,7 @@
             p Además, dispone de fuentes de agua entre las que se encuentran, la subterránea, agua lluvia y la superficial. Están localizadas de forma moderada en regiones vulnerables al desabastecimiento.
             .bgr_2.p-3.mb-3
               p.mb-0 Con respecto a la producción del uso del agua, Colombia está relacionada con la baja productividad del sector agropecuario, una de las principales industrias consumidoras de agua. Colombia genera 18.9 de dólares por cada metro cúbico de agua extraída.
-            p En tal sentido, en el agua utilizada para riego en actividades agrícolas, la pérdida es del 48% (7.732,9 millones m#[sup 3]), pese a que, para la industria ganadera la pérdida es cercana al 40%, al igual que para el sector ganadero con industria.
+            p En tal sentido, en el agua utilizada para riego en actividades agrícolas, la pérdida es del 48 % (7.732,9 millones m#[sup 3]), pese a que, para la industria ganadera la pérdida es cercana al 40 %, al igual que para el sector ganadero con industria.
           .col-12.col-xl-7
             figure
               img(src='@/assets/curso/temas/tema1/v2022/t1-25.png', alt='')
@@ -366,7 +366,7 @@
         figure.d-flex.justify-content-center
           img.img120(src='@/assets/curso/temas/tema1/v2022/t1-27.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-10(data-aos="fade-left")
-        p.mb-0 La economía colombiana está representada en el volumen de exportaciones con más de 98 toneladas y el consumo interno se evalúa en 305 millones de toneladas. Este equilibrio entre entradas y salidas se concluye con el volumen de materiales que no representa un valor dentro de la economía, como por ejemplo, los residuos originados de materiales de la minería y la biomasa no empleada. En relación a los residuos domésticos, se calcula que son desechados alrededor de 18 millones de toneladas equivalente a un 4.5% de la extracción doméstica. Los residuos domésticos están conformados por residuos orgánicos (59%), otros (16%), plásticos (13%), papel y cartón (9%), vidrios (2%) y metales (1%). En el siguiente gráfico se puede observar una estimación del metabolismo de estos materiales:
+        p.mb-0 La economía colombiana está representada en el volumen de exportaciones con más de 98 toneladas y el consumo interno se evalúa en 305 millones de toneladas. Este equilibrio entre entradas y salidas se concluye con el volumen de materiales que no representa un valor dentro de la economía, como por ejemplo, los residuos originados de materiales de la minería y la biomasa no empleada. En relación a los residuos domésticos, se calcula que son desechados alrededor de 18 millones de toneladas equivalentes a un 4.5 % de la extracción doméstica. Los residuos domésticos están conformados por residuos orgánicos (59 %), otros (16 %), plásticos (13 %), papel y cartón (9 %), vidrios (2 %) y metales (1 %). En el siguiente gráfico se puede observar una estimación del metabolismo de estos materiales:
 
 
     .bg_grad-05
@@ -381,42 +381,42 @@
               ul.fa-ul
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Biomasa  de madera y pescado (3%)
+                  span Biomasa  de madera y pescado (3 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Ganadería (23%)
+                  span Ganadería (23 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Biomasa de cultivos (13%)
+                  span Biomasa de cultivos (13 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Materiales de construcción (25%)
+                  span Materiales de construcción (25 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Metales (5%)
+                  span Metales (5 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Minerales y materiales industriales (2%)
+                  span Minerales y materiales industriales (2 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Hidrocarburos (29%)
+                  span Hidrocarburos (29 %)
               .h5.mb-2 Importaciones (21 Mton)
               ul.fa-ul
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Biomasa  de madera y pescado (5%)
+                  span Biomasa  de madera y pescado (5 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Biomasa de cultivos (40%)
+                  span Biomasa de cultivos (40 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Materiales de construcción (1%)
+                  span Materiales de construcción (1 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Minerales y materiales industriales (25%)
+                  span Minerales y materiales industriales (25 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Hidrocarburos (29%)
+                  span Hidrocarburos (29 %)
 
             .tarjeta.bgr_15.p-3(x="34%" y="95%" numero="+")
               .h5.mb-2 Disposición doméstico (18 Mton)
@@ -435,33 +435,33 @@
               ul.fa-ul
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Biomasa (8%)
+                  span Biomasa (8 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Materiales de Construcción (1,5%)
+                  span Materiales de Construcción (1,5 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Minerales y materiales industriales (0,5%)
+                  span Minerales y materiales industriales (0,5 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Hidrocarburos (90%)
+                  span Hidrocarburos (90 %)
               .h5.mb-2 Consumo interno (305 Mton)
               ul.fa-ul
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Biomasa  de madera y pescado (2%)
+                  span Biomasa  de madera y pescado (2 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Biomasa de cultivos (50%)
+                  span Biomasa de cultivos (50 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Materiales de construcción (30%)
+                  span Materiales de construcción (30 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Minerales y materiales industriales (8%)
+                  span Minerales y materiales industriales (8 %)
                 li
                   i.fa-li.fas.fa-chevron-right.colr_1
-                  span Hidrocarburos (10%)
+                  span Hidrocarburos (10 %)
 
     h4.bgr_4.p-3.mb-5(data-aos="fade-down-right") Flujos de materiales prioritarios
 

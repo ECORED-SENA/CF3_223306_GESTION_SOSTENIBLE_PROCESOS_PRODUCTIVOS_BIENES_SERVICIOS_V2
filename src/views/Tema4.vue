@@ -151,10 +151,10 @@
 
     p.mb-5 En cuanto a políticas sostenibles en el país se tiene que:
 
-    h3.bgr_4.p-3.mb-5(data-aos="fade-down-right") Política de Sostenibilidad en Colombia
+    //h3.bgr_4.p-3.mb-5(data-aos="fade-down-right") Política de Sostenibilidad en Colombia
 
     figura
-      img.mb-5.d-none.d-md-flex(src='@/assets/curso/temas/tema4/t4.svg' alt='La imagen presenta dos iniciativas: el Plan de Política de Crecimiento Verde para promover modelos económicos sostenibles y el Plan de Acción Indicativo centrado en la eficiencia energética y la reducción de emisiones para 2030.')
+      img.mb-5.d-none.d-md-flex(src='@/assets/curso/temas/tema4/t4b.svg' alt='La imagen presenta dos iniciativas: el Plan de Política de Crecimiento Verde para promover modelos económicos sostenibles y el Plan de Acción Indicativo centrado en la eficiencia energética y la reducción de emisiones para 2030.')
       img.d-flex.d-md-none(src='@/assets/curso/temas/tema4/t4-m.svg' alt='')
 
     p.mb-5 Y de igual manera, algunos programas de eficiencia y ahorro de agua y energía que se han creado en Colombia son:
@@ -346,19 +346,22 @@
           p.mb-0.text-bold  (Negocios Verdes Corpamag, 2020).
           img.pst_3(src='@/assets/componentes/Icon awesome-quote-right.svg', alt='')
           img.pst_4(src='@/assets/componentes/rect.svg', alt='')
-        p La Responsabilidad Social Empresarial ha pasado por un gran número de regulaciones e iniciativas a nivel nacional e internacional para lograr tener claridad y orientación de cómo implementar esta práctica en las organizaciones; por consiguiente, con el propósito de conocer las principales legislaciones e iniciativas en las siguientes figuras se muestra las diferentes directrices:
+        p La Responsabilidad Social Empresarial ha pasado por un gran número de regulaciones e iniciativas a nivel nacional e internacional para lograr tener claridad y orientación de cómo implementar esta práctica en las organizaciones; por consiguiente, con el propósito de conocer las principales legislaciones e iniciativas, a continuación se muestra las diferentes directrices:
       .col-12.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
         figure.d-flex.justify-content-center
           img.w-auto(src='@/assets/curso/temas/tema4/t4-21.svg', alt='')
 
-    .row.mb-5.justify-content-end
-      .col-12.col-lg-10
-        .titulo-sexto.color-acento-contenido
+    .row.mb-5.justify-content-center
+      .col
+        .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 8
           span Principios, directrices, leyes y normas de la RSE
-        h4.bgr_4.p-3.mb-5 Regulaciones e Iniciativas de la RSE
+        //h4.bgr_4.p-3.mb-5 Regulaciones e Iniciativas de la RSE
 
-    .row.justify-content-center.mb-5
+        figure.d-flex.justify-content-center
+          img.w-auto(src='@/assets/curso/temas/tema4/fig8.svg', alt='La figura ilustra las directrices y normativas de Responsabilidad Social Empresarial (RSE). A nivel internacional, destaca iniciativas como el Pacto Mundial de la ONU y las directrices de la OCDE. En Colombia, se mencionan leyes relevantes desde la Constitución de 1991 hasta normas específicas como la ICONTEC-GTC 180.')
+
+    //.row.justify-content-center.mb-5
       .col-12.col-lg-6.col-xl-4.mb-3.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img.img120(src='@/assets/curso/temas/tema4/t4-22.svg' alt='La figura ilustra las directrices y normativas de Responsabilidad Social Empresarial (RSE). A nivel internacional, destaca iniciativas como el Pacto Mundial de la ONU y las directrices de la OCDE. En Colombia, se mencionan leyes relevantes desde la Constitución de 1991 hasta normas específicas como la ICONTEC-GTC 180.')

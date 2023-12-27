@@ -105,9 +105,7 @@
           figura.d-flex.justify-content-center
             img.img180(src='@/assets/curso/temas/tema3/t3-4.svg' alt='')
 
-    p.mb-5 La economía circular también contempla varios
-      span.colr.text-bold modelos económicos y escuelas de pensamiento
-      | que buscan mejorar y optimizar los recursos mediante la reutilización, obteniendo beneficios rentables y que los consumidores finales tengan precios más accesibles. A continuación, se presentan los siguientes modelos económicos enfocados y direccionados a la economía circular:
+    p.mb-5 La economía circular también contempla varios #[span.colr.text-bold modelos económicos] y escuelas de pensamiento que buscan mejorar y optimizar los recursos mediante la reutilización, obteniendo beneficios rentables y que los consumidores finales tengan precios más accesibles. A continuación, se presentan los siguientes modelos económicos enfocados y direccionados a la economía circular:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_20(data-aos="zoom-in")
       .row(titulo="<em>Cradle to cradle</em> (de la cuna a la cuna)").justify-content-center
@@ -125,7 +123,7 @@
             img(src='@/assets/curso/temas/tema3/t3-6.png', alt='')
       .row(titulo="Capital natural").justify-content-center
         .col-12.col-lg-8.mb-4.mb-lg-0
-          p Este concepto es definido por Robert Constanza y Herman Daly en los años 90’s, se refiere al stock o inventario de recursos naturales renovables y no renovables que, al ser juntados, aportan beneficios a las personas. Un caso particular del capital natural es la regulación de gases (captura de carbono y generación de oxígeno) proporcionan una mejor calidad a la tierra, aire y agua, además, estos servicios no se transforman, ni se acaban.
+          p Este concepto es definido por Robert Constanza y Herman Daly en los años 90’s, se refiere al #[em stock] o inventario de recursos naturales renovables y no renovables que, al ser juntados, aportan beneficios a las personas. Un caso particular del capital natural es la regulación de gases (captura de carbono y generación de oxígeno) proporcionan una mejor calidad a la tierra, aire y agua, además, estos servicios no se transforman, ni se acaban.
         .col-8.col-lg-4
           figure
             img(src='@/assets/curso/temas/tema3/t3-7.png', alt='')
@@ -165,7 +163,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Marco normativo nacional de economía circular
 
-    p.mb-5 El marco normativo tiene un papel fundamental para alcanzar los objetivos que plantea la economía circular, estos facilitan los procesos de implementación en las organizaciones de manera clara y pertinente otorgándole garantías y herramientas de fácil análisis y comprensión. A continuación, se presentan las normas nacionales de economía circular que sirven de apoyo en los diferentes sectores económicos:
+    p.mb-5 El marco normativo tiene un papel fundamental para alcanzar los objetivos que plantea la economía circular, estos facilitan los procesos de implementación en las organizaciones de manera clara y pertinente, otorgándole garantías y herramientas de fácil análisis y comprensión. A continuación, se presentan las normas nacionales de economía circular que sirven de apoyo en los diferentes sectores económicos:
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 1
@@ -276,7 +274,7 @@
           img.img500(src='@/assets/curso/temas/tema3/t3-19.png', alt='')
       .col-12.col-lg-7(data-aos="fade-right")
         .bgr_2.p-4.mb-3
-          p.mb-0 Durante el año 2019, la Autoridad Nacional de Licencias Ambientales (ANLA) obtuvo más de 600 solicitudes, por consiguiente, destino 462 incentivos, el 68% fue incorporado a inversiones de control, monitoreo y programas ambientales, en fuentes no convencionales de energía fue el 23%, mientras que, el 9% a eficiencia energética.
+          p.mb-0 Durante el año 2019, la Autoridad Nacional de Licencias Ambientales (ANLA) obtuvo más de 600 solicitudes, por consiguiente, destino 462 incentivos, el 68 % fue incorporado a inversiones de control, monitoreo y programas ambientales, en fuentes no convencionales de energía fue el 23 %, mientras que, el 9 % a eficiencia energética.
         p Los Incentivos fiscales relacionados con los beneficios ambientales, se han destinado en 338 mil millones de pesos tanto a la exclusión del impuesto al valor agregado, como a la deducción del impuesto a la renta. La inversión en las industrias del país se vio incentivada por más de $1.700 millones de pesos en 2019.
 
     separador

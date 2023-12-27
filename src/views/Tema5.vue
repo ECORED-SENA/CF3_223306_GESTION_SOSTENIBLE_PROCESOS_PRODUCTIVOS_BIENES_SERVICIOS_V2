@@ -24,7 +24,7 @@
             h5 Figura 10
             span Cadena de valor
           figura
-            img(src='@/assets/curso/temas/tema5/t5-2.svg' alt='La figura ilustra una Cadena de valor que categoriza las actividades empresariales en Actividades de soporte, como aprovisionamiento y gestión de recursos humanos, y Actividades primarias, como logística y marketing.')
+            img(src='@/assets/curso/temas/tema5/fig10.svg' alt='La figura ilustra una Cadena de valor que categoriza las actividades empresariales en Actividades de soporte, como aprovisionamiento y gestión de recursos humanos, y Actividades primarias, como logística y marketing.')
           figcaption.mt-5 Nota. Adaptado de Grupo Trevenque (2021). La cadena de valor: qué es y cómo hacerla.
 
     p.mb-5 La importancia de aplicar la cadena de valor son diversas razones, aunque se destacan los siguientes:
@@ -127,10 +127,10 @@
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.1 Análisis y etapas del ciclo de vida del producto
 
-    .bg_grad-14
+    .bg_grad-14.mb-5
       .row.mb-5
         .col-12.col-lg-10.d-flex.align-items-center
-          p.mb-0 El ciclo de vida de un producto surge de la comparación que tienen los seres vivos frente a la evolución en la que se enfrenta a varias etapas a lo largo de la vida. En relación con el producto cumple un ciclo similar y que para las organizaciones permite analizar la introducción y salida de un producto en el mercado. En el siguiente gráfico revisaremos las etapas del ciclo de vida de un producto:
+          p.mb-0 El ciclo de vida de un producto surge de la comparación que tienen los seres vivos frente a la evolución en la que se enfrenta a varias etapas a lo largo de la vida. En relación con el producto, cumple un ciclo similar y que para las organizaciones permite analizar la introducción y salida de un producto en el mercado. En el siguiente gráfico revisaremos las etapas del ciclo de vida de un producto:
         .col-12.col-lg-2
           figure
             img.d-none.d-lg-flex(src='@/assets/curso/temas/tema5/t5-6.svg', alt='')
@@ -156,6 +156,8 @@
             .tarjeta.bgr_12.p-3(x="91%" y="98%" numero="+")
               .h5.mb-2 Declive:
               p.mb-0 Esta es la última etapa del ciclo de vida del producto y es el resultado de una caída o estancamiento significativo en las ventas. La caída en las ventas se debe a los cambios en los gustos y preferencias de los consumidores, así como a las nuevas tendencias y al surgimiento de productos alternativos.
+
+    p.mb-5 La figura representa el Ciclo de vida de un producto, un concepto que describe las distintas etapas que atraviesa un producto desde su introducción en el mercado hasta su eventual retirada. En el eje vertical, se muestran las ventas, mientras que el eje horizontal refleja el tiempo.
 
     separador
 
@@ -188,7 +190,7 @@
         .d-lg-none
           img(src='@/assets/curso/temas/tema5/t5-10b.svg', alt='La imagen muestra las etapas que conforman las cadenas de suministro: desde su producción, pasando por la distribución y ventas, seguido de su posible reparación y reutilización, hasta su reciclaje o eliminación final.')
 
-    p.mb-5 A continuación, en la siguiente figura del modelo de suministro podemos observar que el éxito de su implementación es el de extraer el valor total de un material en la cadena del ciclo de vida del producto; la clave está en la línea de producción y el desarrollo del producto.
+    p.mb-5 A continuación, en la siguiente figura del modelo de suministro, podemos observar que el éxito de su implementación es el de extraer el valor total de un material en la cadena del ciclo de vida del producto; la clave está en la línea de producción y el desarrollo del producto.
 
     .bg_grad-18
       .titulo-sexto.color-acento-contenido
@@ -248,7 +250,7 @@
         div
           p En los <em>e-commerce</em> (comercio electrónico), se deben optimizar los costos logísticos; por esta razón, el proceso de logística inversa debe estar bien organizado y ejecutado de modo sustentable en aspectos económicos porque permite el ahorro de dinero y tiempo.
           .bgr_5.p-4
-            p.mb-0 La importancia de la logística inversa ejerce un rol esencial para brindar un buen servicio de devolución, la cual mejora la experiencia de compra, fomenta la fidelización del cliente, aumenta las ventas e impulsan la competitividad en el mercado.
+            p.mb-0 La importancia de la logística inversa ejerce un rol esencial para brindar un buen servicio de devolución, la cual mejora la experiencia de compra, fomenta la fidelización del cliente, aumenta las ventas e impulsa la competitividad en el mercado.
 
     .tarjeta.color-primario.p-3
       .row.justify-content-around.align-items-center
@@ -293,7 +295,7 @@
         .row.p-4
           .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Lana y Seda
-            p.mb-0 Los fundamentos de la sostenibilidad se pueden incorporar a productos textiles donde el origen y uso de las materias primas utilizadas sean 100% naturales y responsables, como por ejemplo, la lana o la seda que provienen de una producción respetuosa con el medio ambiente y los involucrados en el proceso de cosecha y producción, pueden beneficiarse de buenas condiciones de salud, seguridad y compensación económica. El proceso de fabricación puede tener menos impacto en el medio ambiente, porque se produce en pequeñas cantidades sucesivas. El producto final del ciclo de vida y la larga vida útil, serán materiales reciclables y, finalmente, materiales degradables.
+            p.mb-0 Los fundamentos de la sostenibilidad se pueden incorporar a productos textiles donde el origen y uso de las materias primas utilizadas sean 100 % naturales y responsables, como por ejemplo, la lana o la seda que provienen de una producción respetuosa con el medio ambiente y los involucrados en el proceso de cosecha y producción, pueden beneficiarse de buenas condiciones de salud, seguridad y compensación económica. El proceso de fabricación puede tener menos impacto en el medio ambiente, porque se produce en pequeñas cantidades sucesivas. El producto final del ciclo de vida y la larga vida útil, serán materiales reciclables y, finalmente, materiales degradables.
           .col-12.col-lg-4.d-flex.align-items-center
             figure.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/temas/tema5/t5-19.png', alt='')
@@ -301,7 +303,7 @@
         .row.p-4
           .col-12.col-lg-8.mb-3.mg-lg-0
             h4 Fibras vegetales
-            p.mb-0 Aquellas fibras vegetales como el esparto, el mimbre, el abacá, el cáñamo, entre otros, son considerados materiales sostenibles. Si se han aplicado con barniz sintético o pegamentos ajenos ya no son considerados como materiales sostenibles.
+            p.mb-0 Aquellas fibras vegetales como el esparto, el mimbre, el abacá, el cáñamo, entre otros, son considerados materiales sostenibles. Si se han aplicado con barniz sintético o pegamentos ajenos, ya no son considerados como materiales sostenibles.
           .col-12.col-lg-4.d-flex.align-items-center
             figure.d-flex.justify-content-center
               img.w-auto(src='@/assets/curso/temas/tema5/t5-20.png', alt='')
@@ -425,7 +427,7 @@
 
     h3.bgr_4.p-3.mb-5 <em>Tips</em> para un embalaje más sostenible
 
-    p.mb-5 Los embalajes cumplen una función importante en la protección de los productos, para el transporte y entrega al comprador en excelente calidad. Los compradores son más conscientes del impacto que estos embalajes traen para el medio ambiente por eso las organizaciones cada vez buscan implementar materiales que respondan a las necesidades de reducir el impacto utilizando materias renovables o recicladas.
+    p.mb-5 Los embalajes cumplen una función importante en la protección de los productos, para el transporte y entrega al comprador en excelente calidad. Los compradores son más conscientes del impacto que estos embalajes traen para el medio ambiente, por eso las organizaciones cada vez buscan implementar materiales que respondan a las necesidades de reducir el impacto utilizando materias renovables o recicladas.
 
     .bg_grad-01
       .titulo-sexto.color-acento-contenido

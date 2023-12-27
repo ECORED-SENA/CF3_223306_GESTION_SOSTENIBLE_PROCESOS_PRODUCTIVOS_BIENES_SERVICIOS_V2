@@ -87,7 +87,7 @@
             h5 Figura 5
             span Sistemas económicos
           figura
-            img(src='@/assets/curso/temas/tema2/t2-7.svg' alt='La figura presenta los tres sistemas económicos principales: el modelo capitalista, que se basa en el mercado para asignar recursos; el modelo Socialista, que interviene en la economía para lograr objetivos específicos; y la economía Mixta, que combina elementos de ambos modelos anteriores.')
+            img(src='@/assets/curso/temas/tema2/t2-7b.svg' alt='La figura presenta los tres sistemas económicos principales: el modelo capitalista, que se basa en el mercado para asignar recursos; el modelo Socialista, que interviene en la economía para lograr objetivos específicos; y la economía Mixta, que combina elementos de ambos modelos anteriores.')
 
     separador
 
