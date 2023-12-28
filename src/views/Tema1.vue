@@ -336,7 +336,7 @@
             .bgr_2.p-3.mb-3
               p.mb-0 La economía colombiana se posiciona en el puesto 39 con una participación del 0,39 % de la economía mundial
             p Según FEDESARROLLO (2018), las actividades económicas que más se destacan son el comercio (12,2 %), la industria (10,9 %), la construcción (7,2 %), el transporte (7 %), la agricultura (7,4 %) y la minería (6,1 %).
-            p Colombia ha sido una de las economías más fuertes de la región con un promedio de 3% anual durante las últimas dos décadas. Además, dispone con 1’214,258 Mm#[sup 3]/año de recurso hídrico disponible, es decir, equivale a un per cápita de 28,370 m3 de agua comparado con  900m#[sup 3] per cápita en países de la OCDE.
+            p Colombia ha sido una de las economías más fuertes de la región con un promedio de 3 % anual durante las últimas dos décadas. Además, dispone con 1’214,258 Mm#[sup 3]/año de recurso hídrico disponible, es decir, equivale a un per cápita de 28,370 m#[sup 3] de agua comparado con  900m#[sup 3] per cápita en países de la OCDE.
           .col-12.col-xl-7
             figure
               img(src='@/assets/curso/temas/tema1/v2022/t1-24.png', alt='')

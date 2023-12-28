@@ -17,7 +17,7 @@
             img(src="@/assets/curso/temas/intro/img1.svg", style="max-width: 352px; margin-top: -50px", alt="").mx-auto
         .col-xl-8
           .pt-4.pb-2
-            p Bienvenidos al componente formativo #[strong.txt-color-acento-contenido "Ciclo de vida en los procesos de la organización y Economía Circular"]. A continuación, se explorará cómo la inteligencia y la tecnología han permitido a la humanidad adaptarse y beneficiarse de la naturaleza, aunque no siempre de manera sostenible. El enfoque estará en entender y promover una relación más equilibrada entre el ser humano y el medio ambiente. Se abordaran conceptos clave como la bioeconomía, la economía circular y modelos económicos sostenibles, poniendo un énfasis especial en el contexto colombiano.
+            p Bienvenidos al componente formativo #[strong.txt-color-acento-contenido "Ciclo de vida en los procesos de la organización y Economía Circular"]. A continuación, se explorará cómo la inteligencia y la tecnología han permitido a la humanidad adaptarse y beneficiarse de la naturaleza, aunque no siempre de manera sostenible. El enfoque estará en entender y promover una relación más equilibrada entre el ser humano y el medio ambiente. Se abordarán conceptos clave como la bioeconomía, la economía circular y modelos económicos sostenibles, poniendo un énfasis especial en el contexto colombiano.
             p Como punto de partida, los invitamos a ver el siguiente video de bienvenida y a familiarizarse con este componente formativo.
 
     figure(data-aos="zoom-in").mt-5
